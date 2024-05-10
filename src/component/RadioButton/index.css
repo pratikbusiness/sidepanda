@@ -1,0 +1,25 @@
+.radio-item{
+  background-color: var(--bg-color-lightest);
+  border:1px solid var(--bg-color-primary);
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--bg-color-primary);
+  display: flex;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.radio-item.radio-item-checked{
+  color: var(--text-color-lightest);
+  background-color: var(--bg-color-primary);
+  border:1px solid var(--bg-color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.radio-item.radio-item-checked{
+  
+}

@@ -1,0 +1,101 @@
+
+.booking-container{
+  width: 70%;
+  margin: auto;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--bg-color-primary);
+  padding: 15px 30px;
+}
+
+.poweredby-text{
+  color: var(--text-color-lightest);
+  font-size: 12px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+}
+
+.calendar-container{
+  padding: 40px;
+  width: 100%;
+  background-color: var(--bg-color-secondary);
+}
+
+.calendar-heading-container{
+  margin-bottom: 20px;
+}
+
+.calendar-heading-container .calendar-subheading{
+  color: var(--text-color-darker);
+  margin-top: 12px;
+}
+
+.footer-next-button{
+  background-color: var(--bg-color-lightest);
+  color: var(--text-color-darker);
+  height: 48px;
+  outline: none;
+  border: none;
+  width: 120px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-next-button-text{
+  color: var(--text-color-darker);
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.timings-heading{
+  text-transform: capitalize;
+  color: var(--text-color-darker);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 21px;
+  margin-bottom: 8px;
+}
+
+.timing-container{
+  width: 100%;
+  padding: 40px;
+  background-color: var(--text-color-lightest);
+}
+
+.select-slot-interval{
+  width: 100%;
+  height: 48px;
+  padding: 8px 12px;
+  margin: 0px 0 20px 0;
+  border-radius: 10px;
+  background: var(--bg-color-secondary);
+  border:1px solid var(--border-primary);
+}
+
+.divider{
+  margin-bottom: 20px;
+  border:1px solid var(--border-primary);
+}
+
+.slot-container{
+  max-height: 240px;
+  overflow: auto;
+}
+
+@media screen and (max-width: 1200px)  {
+  .sm:flex-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
